@@ -16,7 +16,8 @@ here) you will need to prepend `sudo ` to all `docker` calls.
 get/build the docker container
 ==============================
 
-You need docker. You can either get the corresponding image from
+You need docker (if you are running `systemd`, start it with `systemctl start docker`).
+You can either get the corresponding image from
 [hub.docker.com](https://hub.docker.com/r/ftschindler/manjaro-aur-base/)
 (it will not be updated regularly) or build the image locally (recommended):
 
